@@ -21,6 +21,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 header p {
@@ -31,23 +32,24 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('http://i.imgur.com/JQX6q2g.png');
+  background-image: url('https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/13043621_1133083143409744_616290389417708109_n.jpg?oh=090ffd97d7ba4f8d3acf5675d488f1ba&oe=57E9AF82');
   background-size: cover;
   color: #ffffff;
   height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  text-shadow: 0.35px 0.35px 0.35px #000000;
 }
 
 .jumbotron h2 {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: #f0f0f5;
+  text-shadow: 50px
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+  color: #f0f0f5;
 }
 
 section .row img {
@@ -62,18 +64,18 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #000000;
   text-shadow: none;
-  background-color: #ffffff;
+  background-color: #7e7ece;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #fbd1d5;
+  background-color: #24248f;
 }
 
 .btn-secondary {
-  background-color: #E8DFE0;
+  background-color: #7e7ece;
   color: #ffffff;
   margin: 0 0 30px;
 }
